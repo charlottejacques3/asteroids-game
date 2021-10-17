@@ -34,7 +34,7 @@ void gameoverClicks() {
   mode = INTRO;
   myShip.lives = 3;
   myObjects.add(myShip);
-  numAsteroids = 3;
+  numAsteroids = 4;
   int i = 0;
   while (i < numAsteroids) {
     myObjects.add(new Asteroid());
